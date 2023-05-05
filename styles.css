@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover{
+  border: 1px solid rgba(255, 255, 255, 0)
+}
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  margin: 0 50px;
+  border-radius: 10px;
+  transition:  0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0{
+  background: url('https://www.gran-turismo.com/gtsport/decal/7070674573972243472_1.png') center center no-repeat;
+  filter: drop-shadow(4px 4px 8px rgb(253, 182, 187));
+  background-size: 390px;
+}
+.card0:hover {
+  background: url('https://www.gran-turismo.com/gtsport/decal/7070674573972243472_1.png') left center no-repeat;
+  filter: drop-shadow(4px 4px 8px rgb(253, 182, 187));
+  background-size: 500px;
+}
+.card1{
+  background: url('https://images.squarespace-cdn.com/content/v1/6306aaf3653fde34203ac5c0/1661453189412-NXI3XSE93B010BBEFXIN/Tanjiro+1.png?format=1000w') center center no-repeat;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+  background-size: 430px
+}
+.card1:hover{
+  background: url('https://images.squarespace-cdn.com/content/v1/6306aaf3653fde34203ac5c0/1661453189412-NXI3XSE93B010BBEFXIN/Tanjiro+1.png?format=1000w') left center no-repeat;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+  background-size: 600px;
+}
+.card2{
+  background: url('https://divedigital.id/wp-content/uploads/2023/04/Ai-Hoshino-1.jpg') center center no-repeat;
+  background-size: 600px;
+}
+.card2:hover{
+  background: url('https://divedigital.id/wp-content/uploads/2023/04/Ai-Hoshino-1.jpg') left center no-repeat;
+  background-size: 600px;
+}
+h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  text-shadow: 2px 2px 7px black;
+}
+.fa{
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa:hover{
+  transform: scale(1.3);
+}
